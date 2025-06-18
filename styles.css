@@ -2,6 +2,7 @@ body {
     background-image: url(fondo.jpg);
     margin: 0;
     height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
 }
@@ -79,6 +80,8 @@ body {
 
 .contenedor {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     height: 80%;
     width: 81%;
     margin: 15px auto;
@@ -91,26 +94,14 @@ body {
 }
 
 .rebeldes {
-    width: 427px;
+    max-width: 427px;
     height: 100%;
     background-color: rgba(0, 0, 255, 0.205)
 }
 .rebeldes2 {
-    width: 427px;
+    max-width: 427px;
     height: 50%;
     background-color: rgba(0, 244, 255, 0.205);
-}
-
-.linea {
-    width: 2px;
-    height: 100%;
-    background-color: black;
-}
-
-.linea2 {
-    width: 100%;
-    height: 2px;
-    background-color: black;
 }
 
 .botonVolver {
